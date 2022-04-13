@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    background-repeat: no-repeat;
+    min-height: 1080px;
+}
+
+.container {
+    flex-direction: row;
+    align-content: center;
+}
+
+#carouselExampleControls {
+    display: flex;
+}
+
+.carousel-inner {
+    display: flex;
+    margin: 5%;
+    border-radius: 10px;
+}
